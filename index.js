@@ -273,7 +273,7 @@ case 'lofi':
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     client.sendMessage('5511973027044@s.whatsapp.net', options, text, {quoted: mek})
-                    reply('Obrigado pelo aviso :3)
+                    reply('Obrigado pelo aviso :3')
                     break
 					case 'marcar':
 					members_id = []
