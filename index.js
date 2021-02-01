@@ -272,7 +272,7 @@ case 'lofi':
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('5511973027044@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('5547999798506@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Obrigado pelo aviso :3')
                     break
 					case 'marcar':
