@@ -424,7 +424,7 @@ case 'lofi':
 								console.log(`Error : ${err}`)
 								fs.unlinkSync(media)
 								tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-								reply(`Yah gagal ;(, tente dnovo ^_^`)
+								reply(`Yah ;(, tente dnovo ^_^`)
 							})
 							.on('end', function () {
 								console.log('Finish')
@@ -604,13 +604,13 @@ case 'lofi':
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
-							teks += `nao mamou  o bonde direitinho perde ADM seu gay :\n`
+							teks += `decepcionada :\n`
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
 						client.groupDemoteAdmin(from, mentioned)
 					} else {
-						mentions(`nao mamou o bonde direitinho perde adm @${mentioned[0].split('@')[0]} seu gay`, mentioned, true)
+						mentions(`@${mentioned[0].split('@')[0]} decepcionada`, mentioned, true)
 						client.groupDemoteAdmin(from, mentioned)
 					}
 					break
@@ -624,13 +624,13 @@ case 'lofi':
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
-							teks += `novo adm fml esse mamou o bonde pra ser ADM :\n`
+							teks += `Yui feliz :\n`
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					} else {
-						mentions(`novo adm fml sem escandalo @${mentioned[0].split('@')[0]} esse mamou o bonde pra ser ADM`, mentioned, true)
+						mentions(`Yui feliz :3 @${mentioned[0].split('@')[0]} `, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					}
 					break	
