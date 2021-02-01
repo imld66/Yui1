@@ -575,7 +575,7 @@ case 'lofi':
             case 'creator':
             case 'criador':
             case 'keke':
-                  client.sendMessage(from, {displayname: "keke adm", vcard: vcard}, MessageType.contact, { quoted: mek})
+                  client.sendMessage(from, {displayname: "LD adm", vcard: vcard}, MessageType.contact, { quoted: mek})
        client.sendMessage(from, 'Este é o número do meu criador ^-^ ',MessageType.text, { quoted: mek} )
            break    
            case 'setname':
