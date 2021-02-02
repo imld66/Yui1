@@ -721,7 +721,7 @@ case 'lofi':
 				case 'clone':
 				case 'clonar':
 					if (!isGroup) return reply(mess.only.group)
-					if (!isOwner) return reply(' *quem e tu? ?') 
+					if (!isOwner) return reply(' *Pronto.') 
 					if (args.length < 1) return reply(' *TAG do membro clonada!* ')
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag cvk')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
